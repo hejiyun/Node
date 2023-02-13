@@ -1,0 +1,120 @@
+2023-02-07 12:21:27 error [www]: undefined undefined ctx.request.json is not a function
+2023-02-07 12:21:27 error [www]: undefined undefined ctx.request.json is not a function
+2023-02-07 12:23:13 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:23:13 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:23:53 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:23:53 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:23:57 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:23:57 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:25:11 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 12:25:11 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:54:18 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:54:18 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:54:43 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:54:43 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:54:47 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:54:47 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:55:54 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:55:54 error [www]: GET /get_user ctx.request.json is not a function
+2023-02-07 13:57:48 error [www]: GET /get_user err is not defined
+2023-02-07 13:58:44 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 13:59:57 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:00:06 error [www]: GET /get_user res is not defined
+2023-02-07 14:01:23 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:01:54 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:02:04 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:02:04 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:02:05 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:02:11 error [www]: GET /get_user ctx.res.json is not a function
+2023-02-07 14:04:50 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:04:51 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:04:52 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:04:52 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:04:53 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:13:12 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:13:52 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:13:53 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:13:54 error [www]: GET /get_user ctx.body is not a function
+2023-02-07 14:15:57 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 14:16:48 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 14:17:35 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 14:22:21 error [www]: POST /add_file req is not defined
+2023-02-07 14:22:54 error [www]: POST /add_file req is not defined
+2023-02-07 14:23:21 error [www]: POST /add_file The query is empty
+2023-02-07 14:25:05 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:25:42 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:30:15 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:31:11 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:34:25 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:34:35 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:34:49 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:35:09 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:35:35 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:35:48 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:36:23 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:37:23 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:38:30 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:49:08 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:49:34 error [www]: POST /add_file Cannot read properties of undefined (reading 'originalname')
+2023-02-07 14:50:20 error [www]: POST /add_file The query is empty
+2023-02-07 14:57:39 error [www]: POST /add_file The query is empty
+2023-02-07 14:57:59 error [www]: POST /add_file The query is empty
+2023-02-07 14:58:22 error [www]: POST /add_file The query is empty
+2023-02-07 14:58:29 error [www]: POST /add_file The query is empty
+2023-02-07 15:00:21 error [www]: POST /add_file The query is empty
+2023-02-07 15:00:31 error [www]: POST /add_file The query is empty
+2023-02-07 15:15:37 error [www]: POST /add_file The query is empty
+2023-02-07 15:17:00 error [www]: POST /add_file The query is empty
+2023-02-07 15:17:19 error [www]: POST /add_file The query is empty
+2023-02-07 15:17:29 error [www]: POST /add_file The query is empty
+2023-02-07 15:28:39 error [www]: POST /add_file The query is empty
+2023-02-07 15:29:04 error [www]: POST /add_file The query is empty
+2023-02-07 15:30:44 error [www]: POST /add_file req.pipe is not a function
+2023-02-07 15:31:12 error [www]: POST /add_file req.pipe is not a function
+2023-02-07 15:31:24 error [www]: POST /add_file req.pipe is not a function
+2023-02-07 15:31:28 error [www]: POST /add_file req.pipe is not a function
+2023-02-07 15:31:52 error [www]: POST /add_file req.pipe is not a function
+2023-02-07 15:32:18 error [www]: POST /add_file The query is empty
+2023-02-07 15:33:54 error [www]: POST /add_file The query is empty
+2023-02-07 15:34:16 error [www]: POST /add_file The query is empty
+2023-02-07 15:34:35 error [www]: POST /add_file The query is empty
+2023-02-07 15:35:11 error [www]: POST /add_file The query is empty
+2023-02-07 15:42:16 error [www]: POST /add_file insert into `user` (`body`, `filename`) values ('{\"name\":\"测试添加5\",\"phone\":\"14457855333111\",\"file\":\"http://www.xxxx2.com?D73BED58-02D4-4DF5-9793-D6D9565AE7E5.png\"}', '731e3618f0aa98e7234a8ff9dcf8dd0c') - ER_BAD_FIELD_ERROR: Unknown column 'body' in 'field list'
+2023-02-07 15:43:14 error [www]: POST /add_file The query is empty
+2023-02-07 15:43:39 error [www]: POST /add_file insert into `user` (`body`, `filename`) values ('{\"name\":\"测试添加5\",\"phone\":\"14457855333111\",\"file\":\"http://www.xxxx2.com?D73BED58-02D4-4DF5-9793-D6D9565AE7E5.png\"}', '9ce3c13cccab67ed2c5c113c17883a27') - ER_BAD_FIELD_ERROR: Unknown column 'body' in 'field list'
+2023-02-07 15:45:34 error [www]: POST /add_file insert into `user` (`body`, `filename`) values ('{\"name\":\"测试添加5\",\"phone\":\"14457855333111\",\"file\":\"http://www.xxxx2.com?D73BED58-02D4-4DF5-9793-D6D9565AE7E5.png\"}', '94b80603f292dcf8b6b81c1794cb4928') - ER_BAD_FIELD_ERROR: Unknown column 'body' in 'field list'
+2023-02-07 15:51:18 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:51:20 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:51:20 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:51:25 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:51:26 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:51:26 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:51:27 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:52:01 error [www]: POST /add_user The query is empty
+2023-02-07 15:52:16 error [www]: POST /add_user The query is empty
+2023-02-07 15:52:40 error [www]: POST /add_user The query is empty
+2023-02-07 15:53:04 error [www]: POST /add_user The query is empty
+2023-02-07 15:53:32 error [www]: POST /add_user The query is empty
+2023-02-07 15:54:17 error [www]: POST /add_user The query is empty
+2023-02-07 15:55:05 error [www]: POST /add_user The query is empty
+2023-02-07 15:55:47 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:55:50 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:58:43 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:58:45 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:58:46 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:58:50 error [www]: POST /update_user Cannot read properties of undefined (reading 'id')
+2023-02-07 15:59:00 error [www]: POST /add_user The query is empty
+2023-02-07 15:59:03 error [www]: POST /add_user The query is empty
+2023-02-07 16:00:13 error [www]: POST /add_user The query is empty
+2023-02-07 16:00:16 error [www]: POST /update_user Cannot read properties of undefined (reading 'id')
+2023-02-07 16:00:19 error [www]: POST /delete_user Cannot read properties of undefined (reading 'id')
+2023-02-07 16:02:13 error [www]: POST /update_user Cannot read properties of undefined (reading 'id')
+2023-02-07 16:02:31 error [www]: POST /add_user The query is empty
+2023-02-07 16:07:09 error [www]: POST /add_user The query is empty
+2023-02-07 16:07:21 error [www]: POST /add_user The query is empty
+2023-02-07 16:11:03 error [www]: POST /add_user The query is empty
+2023-02-07 16:13:08 error [www]: POST /add_user The query is empty
+2023-02-07 16:13:46 error [www]: POST /add_user The query is empty
+2023-02-07 16:13:55 error [www]: POST /add_user The query is empty
+2023-02-07 16:16:06 error [www]: POST /add_user The query is empty
+2023-02-07 16:20:31 error [www]: POST /add_user The query is empty
