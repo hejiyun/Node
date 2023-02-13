@@ -1,0 +1,542 @@
+2023-02-09 14:56:30,741 INFO 5251 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 14:56:30,878 INFO 5251 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 14:56:30,879 INFO 5251 [egg-knex] instance[0] status OK
+2023-02-09 14:57:45,736 INFO 5273 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 14:57:45,928 INFO 5273 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 14:57:45,928 INFO 5273 [egg-knex] instance[0] status OK
+2023-02-09 14:57:53,632 INFO 5290 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 14:57:53,819 INFO 5290 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 14:57:53,819 INFO 5290 [egg-knex] instance[0] status OK
+2023-02-09 14:57:58,259 INFO 5290 [-/::1/-/16ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":3,"filtered":100,"Extra":null}]
+2023-02-09 14:58:06,066 INFO 5290 [-/::1/-/4ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":3,"filtered":100,"Extra":null}]
+2023-02-09 15:00:42,236 INFO 5319 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:00:42,399 INFO 5319 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:00:42,399 INFO 5319 [egg-knex] instance[0] status OK
+2023-02-09 15:04:08,797 INFO 5379 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:04:09,015 INFO 5379 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:04:09,016 INFO 5379 [egg-knex] instance[0] status OK
+2023-02-09 15:04:18,572 INFO 5406 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:04:18,736 INFO 5406 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:04:18,736 INFO 5406 [egg-knex] instance[0] status OK
+2023-02-09 15:04:49,823 INFO 5406 [-/::1/-/12ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":3,"filtered":100,"Extra":null}]
+2023-02-09 15:05:57,167 INFO 5430 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:05:57,354 INFO 5430 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:05:57,354 INFO 5430 [egg-knex] instance[0] status OK
+2023-02-09 15:07:02,715 INFO 5456 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:07:02,924 INFO 5456 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:07:02,924 INFO 5456 [egg-knex] instance[0] status OK
+2023-02-09 15:08:19,697 INFO 5476 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:08:19,897 INFO 5476 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:08:19,897 INFO 5476 [egg-knex] instance[0] status OK
+2023-02-09 15:08:37,193 INFO 5485 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:08:37,441 INFO 5485 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:08:37,441 INFO 5485 [egg-knex] instance[0] status OK
+2023-02-09 15:10:47,236 INFO 5507 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:10:47,504 INFO 5507 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:10:47,504 INFO 5507 [egg-knex] instance[0] status OK
+2023-02-09 15:12:40,530 INFO 5551 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:12:40,755 INFO 5551 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:12:40,755 INFO 5551 [egg-knex] instance[0] status OK
+2023-02-09 15:13:05,771 INFO 5558 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:13:05,983 INFO 5558 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:13:05,984 INFO 5558 [egg-knex] instance[0] status OK
+2023-02-09 15:13:14,097 INFO 5575 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:13:14,253 INFO 5575 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:13:14,253 INFO 5575 [egg-knex] instance[0] status OK
+2023-02-09 15:15:12,339 INFO 5595 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:15:12,585 INFO 5595 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:15:12,585 INFO 5595 [egg-knex] instance[0] status OK
+2023-02-09 15:18:06,287 INFO 5629 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:18:06,516 INFO 5629 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:18:06,516 INFO 5629 [egg-knex] instance[0] status OK
+2023-02-09 15:18:16,822 INFO 5654 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:18:17,010 INFO 5654 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:18:17,011 INFO 5654 [egg-knex] instance[0] status OK
+2023-02-09 15:20:00,945 INFO 5670 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:20:01,179 INFO 5670 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:20:01,179 INFO 5670 [egg-knex] instance[0] status OK
+2023-02-09 15:20:42,616 INFO 5689 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:20:42,849 INFO 5689 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:20:42,850 INFO 5689 [egg-knex] instance[0] status OK
+2023-02-09 15:21:44,955 INFO 5704 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:21:45,142 INFO 5704 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:21:45,142 INFO 5704 [egg-knex] instance[0] status OK
+2023-02-09 15:21:58,965 INFO 5718 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:21:59,161 INFO 5718 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:21:59,161 INFO 5718 [egg-knex] instance[0] status OK
+2023-02-09 15:22:34,133 INFO 5727 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:22:34,290 INFO 5727 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:22:34,290 INFO 5727 [egg-knex] instance[0] status OK
+2023-02-09 15:22:53,374 INFO 5732 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:22:53,565 INFO 5732 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:22:53,565 INFO 5732 [egg-knex] instance[0] status OK
+2023-02-09 15:23:18,915 INFO 5739 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:23:19,077 INFO 5739 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:23:19,077 INFO 5739 [egg-knex] instance[0] status OK
+2023-02-09 15:23:22,709 INFO 5739 [-/::1/-/52ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?D73BED58-02D4-4DF5-9793-D6D9565AE7E5.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-09 15:23:52,091 INFO 5739 [-/::1/-/37ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?D73BED58-02D4-4DF5-9793-D6D9565AE7E5.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-09 15:28:32,179 INFO 5768 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:28:32,410 INFO 5768 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:28:32,410 INFO 5768 [egg-knex] instance[0] status OK
+2023-02-09 15:28:33,679 INFO 5776 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:28:33,873 INFO 5776 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:28:33,873 INFO 5776 [egg-knex] instance[0] status OK
+2023-02-09 15:29:51,861 INFO 5776 [-/::1/-/20ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-09 15:34:28,272 INFO 5824 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-09 15:34:28,500 INFO 5824 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-09 15:34:28,500 INFO 5824 [egg-knex] instance[0] status OK
+2023-02-10 10:11:25,222 INFO 1102 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:11:25,459 INFO 1102 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:11:25,459 INFO 1102 [egg-knex] instance[0] status OK
+2023-02-10 10:22:05,334 INFO 1282 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:22:05,490 INFO 1282 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:22:05,490 INFO 1282 [egg-knex] instance[0] status OK
+2023-02-10 10:22:18,218 INFO 1282 [-/::1/-/29ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-10 10:23:41,313 INFO 1293 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:23:41,516 INFO 1293 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:23:41,516 INFO 1293 [egg-knex] instance[0] status OK
+2023-02-10 10:23:46,404 INFO 1293 [-/::1/-/18ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-10 10:24:24,757 INFO 1335 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:24:24,919 INFO 1335 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:24:24,919 INFO 1335 [egg-knex] instance[0] status OK
+2023-02-10 10:24:28,586 INFO 1335 [-/::1/-/25ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-10 10:25:11,664 INFO 1356 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:25:11,823 INFO 1356 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:25:11,824 INFO 1356 [egg-knex] instance[0] status OK
+2023-02-10 10:25:28,398 INFO 1367 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:25:28,559 INFO 1367 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:25:28,559 INFO 1367 [egg-knex] instance[0] status OK
+2023-02-10 10:25:41,927 INFO 1367 [-/::1/-/38ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-10 10:33:29,335 INFO 1447 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:33:29,510 DEBUG 1447 [egg-knex] {
+  method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'GVt1HNZUANfAXHi0B50om'
+}
+2023-02-10 10:33:29,516 INFO 1447 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:33:29,516 INFO 1447 [egg-knex] instance[0] status OK
+2023-02-10 10:33:38,336 INFO 1454 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:33:38,513 DEBUG 1454 [egg-knex] {
+  method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'OC-tgfrd_L4kv74jgd1ei'
+}
+2023-02-10 10:33:38,520 INFO 1454 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:33:38,520 INFO 1454 [egg-knex] instance[0] status OK
+2023-02-10 10:33:41,291 DEBUG 1454 [-/::1/-/9ms GET /model1/detail] [egg-knex] {
+  method: 'select',
+  options: {},
+  timeout: false,
+  cancelOnTimeout: false,
+  bindings: [],
+  __knexQueryUid: 'E49Kw-cBnUfBsCJWgLtZI',
+  sql: 'select * from `user`'
+}
+2023-02-10 10:33:41,307 INFO 1454 [-/::1/-/25ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-10 10:34:08,303 INFO 1480 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:34:08,491 DEBUG 1480 [egg-knex] {
+  method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'GZZmEgKzmSQmOgWWLMrg3'
+}
+2023-02-10 10:34:08,496 INFO 1480 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:34:08,496 INFO 1480 [egg-knex] instance[0] status OK
+2023-02-10 10:34:57,504 INFO 1505 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:34:57,648 DEBUG 1505 [egg-knex] {
+  method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'fN_8LdMPHBJY7edGm6Fom'
+}
+2023-02-10 10:34:57,653 INFO 1505 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:34:57,653 INFO 1505 [egg-knex] instance[0] status OK
+2023-02-10 10:36:07,505 INFO 1560 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:36:07,669 DEBUG 1560 [egg-knex] {
+  method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'zPY1shliAmvvY8Bd1qW8x'
+}
+2023-02-10 10:36:07,674 INFO 1560 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:36:07,675 INFO 1560 [egg-knex] instance[0] status OK
+2023-02-10 10:37:10,920 INFO 1584 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:37:11,112 DEBUG 1584 [egg-knex] {
+  method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'PH48P2QYx8d70wKAjzmt8'
+}
+2023-02-10 10:37:11,118 INFO 1584 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:37:11,118 INFO 1584 [egg-knex] instance[0] status OK
+2023-02-10 10:38:17,232 INFO 1607 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:38:17,430 INFO 1607 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:38:17,432 INFO 1607 [egg-knex] instance[0] status OK
+2023-02-10 10:40:54,635 INFO 1693 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:40:54,795 INFO 1693 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:40:54,795 INFO 1693 [egg-knex] instance[0] status OK
+2023-02-10 10:40:56,885 INFO 1693 [-/::1/-/16ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":5,"filtered":100,"Extra":null}]
+2023-02-10 10:41:47,840 INFO 1711 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:41:48,025 INFO 1711 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:41:48,025 INFO 1711 [egg-knex] instance[0] status OK
+2023-02-10 10:42:39,694 INFO 1769 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:42:39,873 INFO 1769 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:42:39,873 INFO 1769 [egg-knex] instance[0] status OK
+2023-02-10 10:43:28,387 INFO 2218 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 10:43:28,548 INFO 2218 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 10:43:28,548 INFO 2218 [egg-knex] instance[0] status OK
+2023-02-10 11:40:38,961 INFO 7287 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:40:39,167 INFO 7287 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:40:39,168 INFO 7287 [egg-knex] instance[0] status OK
+2023-02-10 11:41:14,825 INFO 7287 [-/::1/-/44ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 11:41:47,778 INFO 7330 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:41:47,944 INFO 7330 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:41:47,944 INFO 7330 [egg-knex] instance[0] status OK
+2023-02-10 11:41:53,990 INFO 7330 [-/::1/-/33ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 11:45:39,573 INFO 7330 [-/::1/-/9ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:45:41,772 INFO 7330 [-/::1/-/4ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:45:42,866 INFO 7330 [-/::1/-/4ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:46:31,229 INFO 7520 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:46:31,407 INFO 7520 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:46:31,407 INFO 7520 [egg-knex] instance[0] status OK
+2023-02-10 11:46:36,476 INFO 7520 [-/::1/-/16ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:46:39,173 INFO 7520 [-/::1/-/3ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:46:40,136 INFO 7520 [-/::1/-/4ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:48:10,428 INFO 7537 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:48:10,613 INFO 7537 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:48:10,614 INFO 7537 [egg-knex] instance[0] status OK
+2023-02-10 11:48:12,437 INFO 7537 [-/::1/-/25ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:48:21,762 INFO 7537 [-/::1/-/5ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:48:38,896 INFO 7549 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:48:39,067 INFO 7549 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:48:39,067 INFO 7549 [egg-knex] instance[0] status OK
+2023-02-10 11:48:40,493 INFO 7549 [-/::1/-/22ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:49:41,328 INFO 7558 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:49:41,469 INFO 7558 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:49:41,469 INFO 7558 [egg-knex] instance[0] status OK
+2023-02-10 11:49:43,835 INFO 7558 [-/::1/-/28ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:49:54,988 INFO 7570 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:49:55,134 INFO 7570 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:49:55,134 INFO 7570 [egg-knex] instance[0] status OK
+2023-02-10 11:49:57,116 INFO 7570 [-/::1/-/32ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:50:55,606 INFO 7584 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 11:50:55,774 INFO 7584 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 11:50:55,775 INFO 7584 [egg-knex] instance[0] status OK
+2023-02-10 11:50:57,694 INFO 7584 [-/::1/-/30ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:50:58,707 INFO 7584 [-/::1/-/4ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 11:51:19,599 INFO 7584 [-/::1/-/5ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:18:07,363 INFO 8047 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:18:07,630 INFO 8047 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:18:07,630 INFO 8047 [egg-knex] instance[0] status OK
+2023-02-10 12:18:58,783 INFO 8058 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:18:58,967 INFO 8058 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:18:58,968 INFO 8058 [egg-knex] instance[0] status OK
+2023-02-10 12:19:01,890 INFO 8058 [-/::1/-/17ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:19:24,909 INFO 8058 [-/::1/-/7ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:19:42,314 INFO 8080 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:19:42,487 INFO 8080 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:19:42,487 INFO 8080 [egg-knex] instance[0] status OK
+2023-02-10 12:19:55,781 INFO 8090 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:19:55,930 INFO 8090 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:19:55,930 INFO 8090 [egg-knex] instance[0] status OK
+2023-02-10 12:19:56,949 INFO 8090 [-/::1/-/22ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:20:13,813 INFO 8098 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:20:13,974 INFO 8098 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:20:13,975 INFO 8098 [egg-knex] instance[0] status OK
+2023-02-10 12:20:14,204 INFO 8098 [-/::1/-/32ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:21:21,650 INFO 8108 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:21:21,817 INFO 8108 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:21:21,818 INFO 8108 [egg-knex] instance[0] status OK
+2023-02-10 12:21:25,038 INFO 8108 [-/::1/-/42ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:21:48,640 INFO 8121 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:21:48,818 INFO 8121 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:21:48,818 INFO 8121 [egg-knex] instance[0] status OK
+2023-02-10 12:21:49,983 INFO 8121 [-/::1/-/47ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:22:08,557 INFO 8126 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:22:08,732 INFO 8126 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:22:08,732 INFO 8126 [egg-knex] instance[0] status OK
+2023-02-10 12:22:14,195 INFO 8130 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:22:14,357 INFO 8130 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:22:14,357 INFO 8130 [egg-knex] instance[0] status OK
+2023-02-10 12:22:24,710 INFO 8130 [-/::1/-/29ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:23:45,141 INFO 8148 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:23:45,310 INFO 8148 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:23:45,310 INFO 8148 [egg-knex] instance[0] status OK
+2023-02-10 12:23:46,166 INFO 8148 [-/::1/-/22ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:27:22,073 INFO 8176 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:27:22,272 INFO 8176 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:27:22,273 INFO 8176 [egg-knex] instance[0] status OK
+2023-02-10 12:27:23,941 INFO 8176 [-/::1/-/21ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:27:36,925 INFO 8176 [-/::1/-/7ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:28:00,643 INFO 8198 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:28:00,808 INFO 8198 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:28:00,808 INFO 8198 [egg-knex] instance[0] status OK
+2023-02-10 12:28:01,743 INFO 8198 [-/::1/-/27ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:29:31,407 INFO 8198 [-/::1/-/14ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:31:49,946 INFO 8233 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:31:50,119 INFO 8233 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:31:50,119 INFO 8233 [egg-knex] instance[0] status OK
+2023-02-10 12:32:43,491 INFO 8256 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:32:43,688 INFO 8256 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:32:43,688 INFO 8256 [egg-knex] instance[0] status OK
+2023-02-10 12:32:45,593 INFO 8256 [-/::1/-/29ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:33:34,138 INFO 8273 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:33:34,328 INFO 8273 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:33:34,328 INFO 8273 [egg-knex] instance[0] status OK
+2023-02-10 12:33:38,034 INFO 8273 [-/::1/-/20ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:33:45,184 INFO 8273 [-/::1/-/11ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:39:23,422 INFO 8420 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:39:23,564 INFO 8420 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:39:23,564 INFO 8420 [egg-knex] instance[0] status OK
+2023-02-10 12:39:24,927 INFO 8420 [-/::1/-/42ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:42:34,574 INFO 8497 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:42:34,717 INFO 8497 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:42:34,717 INFO 8497 [egg-knex] instance[0] status OK
+2023-02-10 12:42:56,538[][egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:47:05,185 INFO 8534 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:47:05,339 INFO 8534 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:47:05,339 INFO 8534 [egg-knex] instance[0] status OK
+2023-02-10 12:47:16,891 INFO 8545 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:47:17,052 INFO 8545 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:47:17,053 INFO 8545 [egg-knex] instance[0] status OK
+2023-02-10 12:47:23,402[][egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:53:09,159 INFO 8592 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:53:09,373 INFO 8592 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:53:09,374 INFO 8592 [egg-knex] instance[0] status OK
+2023-02-10 12:53:25,854 INFO 8602 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:53:26,071 INFO 8602 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:53:26,071 INFO 8602 [egg-knex] instance[0] status OK
+2023-02-10 12:53:41,195 INFO 8602 [-/::1/-/28ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:54:07,917 INFO 8623 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:54:08,121 INFO 8623 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:54:08,122 INFO 8623 [egg-knex] instance[0] status OK
+2023-02-10 12:54:09,069 INFO 8623 [-/::1/-/29ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:54:59,050 INFO 8642 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:54:59,246 INFO 8642 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:54:59,246 INFO 8642 [egg-knex] instance[0] status OK
+2023-02-10 12:55:29,598 INFO 8642 [-/::1/-/24ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:55:45,803 INFO 8662 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:55:45,989 INFO 8662 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:55:45,989 INFO 8662 [egg-knex] instance[0] status OK
+2023-02-10 12:55:47,263 INFO 8662 [-/::1/-/44ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:55:59,952 INFO 8674 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:56:00,121 INFO 8674 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:56:00,121 INFO 8674 [egg-knex] instance[0] status OK
+2023-02-10 12:56:15,829 INFO 8680 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 12:56:15,997 INFO 8680 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 12:56:15,997 INFO 8680 [egg-knex] instance[0] status OK
+2023-02-10 12:56:16,602 INFO 8680 [-/::1/-/41ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 12:56:18,488 INFO 8680 [-/::1/-/5ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:04:22,441 INFO 8680 [-/::1/-/8ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:22:11,168 INFO 9283 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:22:11,424 INFO 9283 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:22:11,424 INFO 9283 [egg-knex] instance[0] status OK
+2023-02-10 14:22:17,747 INFO 9290 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:22:17,924 INFO 9290 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:22:17,924 INFO 9290 [egg-knex] instance[0] status OK
+2023-02-10 14:23:52,576 INFO 9302 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:23:52,737 INFO 9302 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:23:52,738 INFO 9302 [egg-knex] instance[0] status OK
+2023-02-10 14:25:39,975 INFO 9324 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:25:40,138 INFO 9324 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:25:40,138 INFO 9324 [egg-knex] instance[0] status OK
+2023-02-10 14:25:42,345 INFO 9324 [-/::1/-/23ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:25:43,941 INFO 9329 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:25:44,147 INFO 9329 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:25:44,147 INFO 9329 [egg-knex] instance[0] status OK
+2023-02-10 14:25:45,644 INFO 9330 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:25:45,827 INFO 9330 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:25:45,827 INFO 9330 [egg-knex] instance[0] status OK
+2023-02-10 14:27:22,394 INFO 9348 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:27:22,583 INFO 9348 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:27:22,583 INFO 9348 [egg-knex] instance[0] status OK
+2023-02-10 14:27:23,563 INFO 9348 [-/::1/-/20ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:27:25,653 INFO 9348 [-/::1/-/4ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:27:33,286 INFO 9348 [-/::1/-/6ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:28:07,677 INFO 9366 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:28:07,855 INFO 9366 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:28:07,855 INFO 9366 [egg-knex] instance[0] status OK
+2023-02-10 14:28:08,102 INFO 9366 [-/::1/-/32ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:28:14,606 INFO 9366 [-/::1/-/9ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":7,"filtered":100,"Extra":null}]
+2023-02-10 14:29:52,788 INFO 9366 [-/::1/-/25ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 14:41:34,307 INFO 9435 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:41:34,499 INFO 9435 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:41:34,499 INFO 9435 [egg-knex] instance[0] status OK
+2023-02-10 14:45:38,739 INFO 9474 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:45:38,931 INFO 9474 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:45:38,931 INFO 9474 [egg-knex] instance[0] status OK
+2023-02-10 14:45:41,070 INFO 9474 [-/::1/-/30ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":8,"filtered":100,"Extra":null}]
+2023-02-10 14:46:13,529 INFO 9484 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:46:13,708 INFO 9484 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:46:13,708 INFO 9484 [egg-knex] instance[0] status OK
+2023-02-10 14:46:14,620 INFO 9484 [-/::1/-/32ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":8,"filtered":100,"Extra":null}]
+2023-02-10 14:46:57,971 INFO 9500 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:46:58,194 INFO 9500 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:46:58,194 INFO 9500 [egg-knex] instance[0] status OK
+2023-02-10 14:47:01,668 INFO 9500 [-/::1/-/38ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 14:50:53,702 INFO 9533 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 14:50:53,899 INFO 9533 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 14:50:53,901 INFO 9533 [egg-knex] instance[0] status OK
+2023-02-10 15:04:14,029 INFO 9591 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:04:14,285 INFO 9591 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:04:14,285 INFO 9591 [egg-knex] instance[0] status OK
+2023-02-10 15:21:05,009 INFO 9706 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:21:05,258 INFO 9706 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:21:05,258 INFO 9706 [egg-knex] instance[0] status OK
+2023-02-10 15:21:17,029 INFO 9706 [-/::1/-/16ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:23:15,935 INFO 9722 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:23:16,151 INFO 9722 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:23:16,151 INFO 9722 [egg-knex] instance[0] status OK
+2023-02-10 15:23:19,729 INFO 9722 [-/::1/-/54ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:23:37,217 INFO 9735 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:23:37,478 INFO 9735 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:23:37,479 INFO 9735 [egg-knex] instance[0] status OK
+2023-02-10 15:23:39,543 INFO 9735 [-/::1/-/22ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:24:01,997 INFO 9741 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:24:02,175 INFO 9741 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:24:02,176 INFO 9741 [egg-knex] instance[0] status OK
+2023-02-10 15:24:11,997 INFO 9741 [-/::1/-/23ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:24:44,526 INFO 9755 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:24:44,700 INFO 9755 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:24:44,701 INFO 9755 [egg-knex] instance[0] status OK
+2023-02-10 15:24:45,564 INFO 9755 [-/::1/-/24ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:25:10,838 INFO 9767 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:25:11,016 INFO 9767 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:25:11,016 INFO 9767 [egg-knex] instance[0] status OK
+2023-02-10 15:25:14,018 INFO 9767 [-/::1/-/22ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:25:39,183 INFO 9772 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:25:39,355 INFO 9772 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:25:39,355 INFO 9772 [egg-knex] instance[0] status OK
+2023-02-10 15:25:41,567 INFO 9772 [-/::1/-/25ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:26:15,293 INFO 9778 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:26:15,460 INFO 9778 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:26:15,460 INFO 9778 [egg-knex] instance[0] status OK
+2023-02-10 15:26:17,600 INFO 9778 [-/::1/-/23ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:26:39,199 INFO 9783 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:26:39,364 INFO 9783 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:26:39,364 INFO 9783 [egg-knex] instance[0] status OK
+2023-02-10 15:26:42,971 INFO 9783 [-/::1/-/19ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:27:18,919 INFO 9792 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:27:19,117 INFO 9792 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:27:19,117 INFO 9792 [egg-knex] instance[0] status OK
+2023-02-10 15:27:22,454 INFO 9792 [-/::1/-/20ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":9,"filtered":100,"Extra":null}]
+2023-02-10 15:28:31,130 INFO 9808 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:28:31,314 INFO 9808 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:28:31,314 INFO 9808 [egg-knex] instance[0] status OK
+2023-02-10 15:28:33,143 INFO 9808 [-/::1/-/39ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 15:28:58,262 INFO 9824 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:28:58,417 INFO 9824 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:28:58,418 INFO 9824 [egg-knex] instance[0] status OK
+2023-02-10 15:55:48,514 INFO 9824 [-/::1/-/27ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":10,"filtered":100,"Extra":null}]
+2023-02-10 15:57:01,832 INFO 10158 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:57:02,041 INFO 10158 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:57:02,041 INFO 10158 [egg-knex] instance[0] status OK
+2023-02-10 15:57:48,354 INFO 10177 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-10 15:57:48,512 INFO 10177 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-10 15:57:48,512 INFO 10177 [egg-knex] instance[0] status OK
+2023-02-10 15:57:50,317 INFO 10177 [-/::1/-/36ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":10,"filtered":100,"Extra":null}]
+2023-02-10 15:58:14,716 INFO 10177 [-/::1/-/24ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 16:03:04,164 INFO 10177 [-/::1/-/21ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`, `phone`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9', '1445565542332')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-10 16:03:08,425 INFO 10177 [-/::1/-/22ms POST /model1/list] [egg-knex] explains of insert into `user` (`file`, `name`) values ('http://www.xxxx2.com?8600E6C2-6E84-42FE-8319-9812020278B1.png', '测试9')
+=====> result: [{"id":1,"select_type":"INSERT","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":null,"filtered":null,"Extra":null}]
+2023-02-13 10:03:05,275 INFO 968 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-13 10:03:05,563 INFO 968 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-13 10:03:05,563 INFO 968 [egg-knex] instance[0] status OK
+2023-02-13 10:04:57,618 INFO 968 [-/::1/-/30ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":12,"filtered":100,"Extra":null}]
+2023-02-13 10:05:35,106 INFO 968 [-/::1/-/9ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":12,"filtered":100,"Extra":null}]
+2023-02-13 10:06:03,875 INFO 1025 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-13 10:06:04,083 INFO 1025 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-13 10:06:04,084 INFO 1025 [egg-knex] instance[0] status OK
+2023-02-13 10:06:04,836 INFO 1025 [-/::1/-/39ms GET /model1/detail] [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","partitions":null,"type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":12,"filtered":100,"Extra":null}]
+2023-02-13 10:06:49,482 INFO 1042 [egg-knex] mysql connecting {"host":"127.0.0.1","port":"3306","user":"root","password":"00000000","database":"NodeExpress"}
+2023-02-13 10:06:49,694 INFO 1042 [egg-knex] mysql 127.0.0.1#3306#NodeExpress#root status OK, got 1 tables
+2023-02-13 10:06:49,695 INFO 1042 [egg-knex] instance[0] status OK

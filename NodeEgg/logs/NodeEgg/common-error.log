@@ -1,0 +1,439 @@
+2023-02-09 15:06:48,947 ERROR 5430 [-/::1/-/4ms GET /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5430
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:07:05,773 ERROR 5456 [-/::1/-/9ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5456
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:07:21,603 ERROR 5456 [-/::1/-/2ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5456
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:08:26,227 ERROR 5476 [-/::1/-/9ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5476
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:08:38,633 ERROR 5485 [-/::1/-/12ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5485
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:08:45,518 ERROR 5485 [-/::1/-/1ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5485
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:12:45,148 ERROR 5551 [-/::1/-/41ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:8:21)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5551
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:13:20,102 ERROR 5575 [-/::1/-/51ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:8:21)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5575
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:15:16,035 ERROR 5595 [-/::1/-/43ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.saveRequestFiles (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:127:23)
+    at multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/middleware/multipart.js:13:15)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5595
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:18:19,841 ERROR 5654 [-/::1/-/45ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.saveRequestFiles (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:127:23)
+    at multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/middleware/multipart.js:13:15)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5654
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:20:04,279 ERROR 5670 [-/::1/-/34ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.saveRequestFiles (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:127:23)
+    at multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/middleware/multipart.js:13:15)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5670
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:20:49,267 ERROR 5689 [-/::1/-/39ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 5689
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:21:49,512 ERROR 5704 [-/::1/-/43ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 5704
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:22:57,011 ERROR 5732 [-/::1/-/37ms POST /model1/list] nodejs.Error: The query is empty
+    at Client_MySQL._query (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/dialects/mysql/index.js:124:25)
+    at executeQuery (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/internal/query-executioner.js:37:17)
+    at Client_MySQL.query (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/client.js:146:12)
+    at Runner.query (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/runner.js:123:36)
+    at ensureConnectionCallback (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/internal/ensure-connection-callback.js:13:17)
+    at Runner.ensureConnection (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/runner.js:300:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Runner.run (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/runner.js:30:19)
+    at async User.insert (/Users/HJY/Desktop/work-study/NodeEgg/app/service/user.js:16:22)
+    at async ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:16:17)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-session/index.js:41:7)
+
+pid: 5732
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:37:13,460 ERROR 1584 nodejs.TypeError: this.app.Logger is not a constructor
+    at Object.getLogger (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/extend/context.js:114:19)
+    at get logger [as logger] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/extend/context.js:130:17)
+    at Application.<anonymous> (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-onerror/app.js:39:11)
+    at Application.emit (node:events:513:28)
+    at app.context.onerror (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-onerror/index.js:62:14)
+    at onerror (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/lib/application.js:179:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+pid: 1584
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 14:22:21,140 ERROR 9290 [-/::1/-/6ms GET /model1/detail] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/logs/NodeEgg'
+    at mkdirSync (node:fs:1395:3)
+    at CoustomTransport._createStream (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:105:5)
+    at CoustomTransport.reload (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:44:25)
+    at new FileTransport (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:29:10)
+    at new CoustomTransport (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:6:9)
+    at module.exports (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CustomLogger.js:6:24)
+    at get swLog [as swLog] (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/context.js:4:16)
+    at DetailController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/detail.js:8:9)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/logs/NodeEgg"
+name: "ENOENTError"
+pid: 9290
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 14:23:55,372 ERROR 9302 [-/::1/-/13ms GET /model1/detail] nodejs.EACCESError: EACCES: permission denied, mkdir '/var/logs/NodeEgg'
+    at mkdirSync (node:fs:1395:3)
+    at CoustomTransport._createStream (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:105:5)
+    at CoustomTransport.reload (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:44:25)
+    at new FileTransport (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:29:10)
+    at new CoustomTransport (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:6:9)
+    at module.exports (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CustomLogger.js:7:24)
+    at get swLog [as swLog] (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/context.js:4:16)
+    at DetailController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/detail.js:8:9)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+errno: -13
+syscall: "mkdir"
+code: "EACCES"
+path: "/var/logs/NodeEgg"
+name: "EACCESError"
+pid: 9302
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 15:23:19,688 ERROR 9722 [-/::1/-/13ms GET /model1/detail] nodejs.ReferenceError: ctx is not defined
+    at CoustomTransport.buildFormat (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:25:21)
+    at CoustomTransport.log (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:10:32)
+    at Logger.log (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/logger.js:76:19)
+    at Logger.<computed> [as info] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/logger.js:166:10)
+    at DetailController.success (/Users/HJY/Desktop/work-study/NodeEgg/app/core/base_Controller.js:8:20)
+    at DetailController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/detail.js:8:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-static-cache/index.js:41:56
+    at async notfound (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 9722
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 15:58:33,562 ERROR 10177 [-/::1/-/3ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'filename')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:77)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 10177
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 15:59:02,394 ERROR 10177 [-/::1/-/2ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'filename')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:77)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 10177
+hostname: macdeMacBook-Pro.local
+

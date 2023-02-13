@@ -1,0 +1,4 @@
+2023-02-06 11:08:18 error [www]: GET /heool Not Found
+2023-02-06 14:24:41 error [www]: POST /add_user Unexpected token n in JSON at position 2
+2023-02-06 14:25:05 error [www]: POST /add_user Unexpected token n in JSON at position 3
+2023-02-06 15:59:54 error [www]: POST /add_file userController.addFile is not a function

@@ -1,0 +1,342 @@
+{
+  "keys": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+  "middleware": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+      "type": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+    "autoFields": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "defaultParamCharset": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "i18n": {
+    "enable": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+    "defaultLocale": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "knex": {
+    "client": {
+      "dialect": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+      "connection": {
+        "host": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+        "port": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+        "user": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+        "password": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+        "database": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js"
+      },
+      "pool": {
+        "min": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+        "max": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js"
+      },
+      "acquireConnectionTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js"
+    },
+    "app": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+    "agent": "/Users/HJY/Desktop/work-study/NodeEgg/config/config.default.js",
+    "default": {
+      "dialect": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-knex/config/config.default.js",
+      "connection": {
+        "database": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-knex/config/config.default.js"
+      },
+      "pool": {
+        "min": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-knex/config/config.default.js",
+        "max": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-knex/config/config.default.js"
+      },
+      "acquireConnectionTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-knex/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-schedule/config/config.default.js"
+    },
+    "knex": {
+      "file": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-knex/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "name": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "version": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "description": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "private": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "egg-knex": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "knex": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "mysql": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "stop": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "dev": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "debug": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "test": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "cov": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "lint": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "ci": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "type": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "url": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "license": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "strict": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "depth": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "env": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "level": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "enableFastContextLogger": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    },
+    "useHttpClientNext": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "logging": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "port": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/config/config.default.js"
+}

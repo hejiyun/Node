@@ -1,0 +1,820 @@
+2023-02-09 14:57:45,940 INFO 5251 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:00:42,410 INFO 5290 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:01:45,619 WARN 5319 [-/::1/-/7ms POST /model1/list] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-02-09 15:01:45,621 WARN 5319 [-/::1/-/9ms POST /model1/list] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-bodyparser/index.js:95:11)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/middleware/notfound.js:5:5)
+message: "missing csrf token"
+pid: 5319
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:04:01,171 INFO 5319 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:05:57,364 INFO 5406 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:06:48,948 ERROR 5430 [-/::1/-/4ms GET /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5430
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:07:02,933 INFO 5430 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:07:05,774 ERROR 5456 [-/::1/-/9ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5456
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:07:21,604 ERROR 5456 [-/::1/-/2ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5456
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:08:19,910 INFO 5456 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:08:26,228 ERROR 5476 [-/::1/-/9ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5476
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:08:37,453 INFO 5476 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:08:38,634 ERROR 5485 [-/::1/-/12ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5485
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:08:45,519 ERROR 5485 [-/::1/-/1ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 5485
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:10:47,513 INFO 5485 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:12:45,149 ERROR 5551 [-/::1/-/41ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:8:21)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5551
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:13:05,993 INFO 5551 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:13:20,102 ERROR 5575 [-/::1/-/51ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:8:21)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5575
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:15:03,055 INFO 5575 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:15:16,036 ERROR 5595 [-/::1/-/43ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.saveRequestFiles (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:127:23)
+    at multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/middleware/multipart.js:13:15)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5595
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:18:06,524 INFO 5595 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:18:19,842 ERROR 5654 [-/::1/-/45ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.saveRequestFiles (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:127:23)
+    at multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/middleware/multipart.js:13:15)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5654
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:20:01,188 INFO 5654 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:20:04,279 ERROR 5670 [-/::1/-/34ms POST /model1/list] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.saveRequestFiles (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/extend/context.js:127:23)
+    at multipart (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/app/middleware/multipart.js:13:15)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 5670
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:20:42,859 INFO 5670 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:20:49,268 ERROR 5689 [-/::1/-/39ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 5689
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:21:45,154 INFO 5689 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:21:49,512 ERROR 5704 [-/::1/-/43ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'originalname')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:65)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 5704
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:21:59,172 INFO 5704 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:22:34,301 INFO 5718 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:22:53,576 INFO 5727 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:22:57,012 ERROR 5732 [-/::1/-/37ms POST /model1/list] nodejs.Error: The query is empty
+    at Client_MySQL._query (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/dialects/mysql/index.js:124:25)
+    at executeQuery (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/internal/query-executioner.js:37:17)
+    at Client_MySQL.query (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/client.js:146:12)
+    at Runner.query (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/runner.js:123:36)
+    at ensureConnectionCallback (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/internal/ensure-connection-callback.js:13:17)
+    at Runner.ensureConnection (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/runner.js:300:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Runner.run (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/knex/lib/execution/runner.js:30:19)
+    at async User.insert (/Users/HJY/Desktop/work-study/NodeEgg/app/service/user.js:16:22)
+    at async ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:16:17)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-session/index.js:41:7)
+
+pid: 5732
+hostname: macdeMacBook-Pro.local
+
+2023-02-09 15:23:19,090 INFO 5732 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:28:32,420 INFO 5739 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:28:32,425 INFO 5768 [egg-knex] knex singleton has been destroyed
+2023-02-09 15:34:28,509 INFO 5776 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:23:41,531 INFO 1282 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:25:11,835 INFO 1335 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:25:28,569 INFO 1356 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:27:44,412 WARN 1367 [-/::1/-/17ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1367
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:33:29,529 INFO 1367 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:33:38,531 INFO 1447 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:33:44,873 WARN 1454 [-/::1/-/28ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1454
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:34:10,444 WARN 1480 [-/::1/-/26ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1480
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:35:01,736 WARN 1505 [-/::1/-/22ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1505
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:36:11,745 WARN 1560 [-/::1/-/25ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1560
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:37:13,459 WARN 1584 nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1584
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:37:13,460 ERROR 1584 nodejs.TypeError: this.app.Logger is not a constructor
+    at Object.getLogger (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/extend/context.js:114:19)
+    at get logger [as logger] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/extend/context.js:130:17)
+    at Application.<anonymous> (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-onerror/app.js:39:11)
+    at Application.emit (node:events:513:28)
+    at app.context.onerror (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-onerror/index.js:62:14)
+    at onerror (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/lib/application.js:179:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+pid: 1584
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:38:17,452 INFO 1584 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:38:20,485 WARN 1607 [-/::1/-/38ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1607
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:41:02,137 WARN 1693 [-/::1/-/30ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1693
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:41:48,036 INFO 1693 [egg-knex] knex singleton has been destroyed
+2023-02-10 10:41:49,404 WARN 1711 [-/::1/-/39ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1711
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:41:58,549 WARN 1711 [-/::1/-/30ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at Readable.read (node:internal/streams/readable:539:10)
+    at flow (node:internal/streams/readable:1023:34)
+status: 400
+pid: 1711
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:42:40,382 WARN 1769 [-/::1/-/30ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 1769
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 10:43:32,729 WARN 2218 [-/::1/-/31ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:200:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+status: 400
+pid: 2218
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 11:38:49,962 WARN 2218 [-/::1/-/28ms POST /model1/list] nodejs.Error: Invalid filename: c5
+    at options.checkFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-multipart/lib/utils.js:68:21)
+    at Multipart.onFile (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/co-busboy/index.js:108:17)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/busboy/lib/types/multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:766:22)
+    at IncomingMessage.emit (node:events:513:28)
+    at Readable.read (node:internal/streams/readable:539:10)
+    at flow (node:internal/streams/readable:1023:34)
+status: 400
+pid: 2218
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 11:46:31,419 INFO 7330 [egg-knex] knex singleton has been destroyed
+2023-02-10 11:48:10,624 INFO 7520 [egg-knex] knex singleton has been destroyed
+2023-02-10 11:48:39,076 INFO 7537 [egg-knex] knex singleton has been destroyed
+2023-02-10 11:49:41,478 INFO 7549 [egg-knex] knex singleton has been destroyed
+2023-02-10 11:49:55,143 INFO 7558 [egg-knex] knex singleton has been destroyed
+2023-02-10 11:50:55,785 INFO 7570 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:18:07,639 INFO 7584 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:18:58,983 INFO 8047 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:19:42,497 INFO 8058 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:19:55,938 INFO 8080 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:20:13,984 INFO 8090 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:21:21,828 INFO 8098 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:21:48,829 INFO 8108 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:22:08,741 INFO 8121 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:22:14,379 INFO 8126 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:23:45,319 INFO 8130 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:27:22,313 INFO 8148 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:28:00,817 INFO 8176 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:31:50,129 INFO 8198 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:32:27,260 INFO 8233 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:33:34,340 INFO 8256 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:35:21,305 INFO 8273 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:47:05,349 INFO 8497 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:47:17,063 INFO 8534 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:53:09,388 INFO 8545 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:53:26,082 INFO 8592 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:54:08,131 INFO 8602 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:54:59,257 INFO 8623 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:55:46,000 INFO 8642 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:56:00,130 INFO 8662 [egg-knex] knex singleton has been destroyed
+2023-02-10 12:56:16,008 INFO 8674 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:22:11,433 INFO 8680 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:22:17,934 INFO 9283 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:22:21,141 ERROR 9290 [-/::1/-/6ms GET /model1/detail] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir '/logs/NodeEgg'
+    at mkdirSync (node:fs:1395:3)
+    at CoustomTransport._createStream (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:105:5)
+    at CoustomTransport.reload (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:44:25)
+    at new FileTransport (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:29:10)
+    at new CoustomTransport (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:6:9)
+    at module.exports (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CustomLogger.js:6:24)
+    at get swLog [as swLog] (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/context.js:4:16)
+    at DetailController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/detail.js:8:9)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+path: "/logs/NodeEgg"
+name: "ENOENTError"
+pid: 9290
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 14:23:52,747 INFO 9290 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:23:55,373 ERROR 9302 [-/::1/-/13ms GET /model1/detail] nodejs.EACCESError: EACCES: permission denied, mkdir '/var/logs/NodeEgg'
+    at mkdirSync (node:fs:1395:3)
+    at CoustomTransport._createStream (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:105:5)
+    at CoustomTransport.reload (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:44:25)
+    at new FileTransport (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/transports/file.js:29:10)
+    at new CoustomTransport (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:6:9)
+    at module.exports (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CustomLogger.js:7:24)
+    at get swLog [as swLog] (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/context.js:4:16)
+    at DetailController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/detail.js:8:9)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+errno: -13
+syscall: "mkdir"
+code: "EACCES"
+path: "/var/logs/NodeEgg"
+name: "EACCESError"
+pid: 9302
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 14:25:40,148 INFO 9302 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:25:44,207 INFO 9324 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:25:45,840 INFO 9329 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:27:22,594 INFO 9330 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:28:07,870 INFO 9348 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:41:34,511 INFO 9366 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:44:34,500 INFO 9435 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:46:13,720 INFO 9474 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:46:58,207 INFO 9484 [egg-knex] knex singleton has been destroyed
+2023-02-10 14:50:53,911 INFO 9500 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:04:14,303 INFO 9533 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:21:05,268 INFO 9591 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:23:16,163 INFO 9706 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:23:19,689 ERROR 9722 [-/::1/-/13ms GET /model1/detail] nodejs.ReferenceError: ctx is not defined
+    at CoustomTransport.buildFormat (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:25:21)
+    at CoustomTransport.log (/Users/HJY/Desktop/work-study/NodeEgg/app/extend/CoustomTransport.js:10:32)
+    at Logger.log (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/logger.js:76:19)
+    at Logger.<computed> [as info] (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-logger/lib/logger.js:166:10)
+    at DetailController.success (/Users/HJY/Desktop/work-study/NodeEgg/app/core/base_Controller.js:8:20)
+    at DetailController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/detail.js:8:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-static-cache/index.js:41:56
+    at async notfound (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 9722
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 15:23:37,492 INFO 9722 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:24:02,187 INFO 9735 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:24:44,713 INFO 9741 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:25:11,029 INFO 9755 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:25:39,366 INFO 9767 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:26:15,471 INFO 9772 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:26:39,374 INFO 9778 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:27:19,131 INFO 9783 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:28:31,332 INFO 9792 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:28:58,427 INFO 9808 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:57:02,050 INFO 9824 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:57:48,521 INFO 10158 [egg-knex] knex singleton has been destroyed
+2023-02-10 15:58:33,562 ERROR 10177 [-/::1/-/3ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'filename')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:77)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 10177
+hostname: macdeMacBook-Pro.local
+
+2023-02-10 15:59:02,394 ERROR 10177 [-/::1/-/2ms POST /model1/list] nodejs.TypeError: Cannot read properties of undefined (reading 'filename')
+    at ListController.index (/Users/HJY/Desktop/work-study/NodeEgg/app/controller/model1/list.js:11:77)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/app/middleware/slow.js:4:13
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:45:18)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:44:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/HJY/Desktop/work-study/NodeEgg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/HJY/Desktop/work-study/NodeEgg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 10177
+hostname: macdeMacBook-Pro.local
+
+2023-02-13 10:06:04,092 INFO 968 [egg-knex] knex singleton has been destroyed
+2023-02-13 10:06:49,702 INFO 1025 [egg-knex] knex singleton has been destroyed
